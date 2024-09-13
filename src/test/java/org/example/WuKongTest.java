@@ -17,13 +17,13 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 
-// ------------------命中率 97%
+// ------------------命中率 95%
 public class WuKongTest {
 //    存储变量
     private static final String URL = "https://dev-platform-games-api.coolgame.world/slot/api/game/mock";
     private static final int BET = 100; //下注金额
-    private static final int NUM_RUNS =50; //执行次数
-    private static final int NUM_RTP =97; //执行次数
+    private static final int NUM_RUNS =100000; //执行次数
+    private static final int NUM_RTP =95; //执行次数
 
 //发送接口请求
     private static HttpResponse sendPostRequest() throws IOException {
@@ -42,29 +42,35 @@ public class WuKongTest {
         String responseBody = EntityUtils.toString(entity,"utf-8");
         return responseBody;
     }
-@Test
-@Description("文件")
-public void calculatePayout() throws IOException {
-    double sumsamount = 0;//总中奖金额
-    double sumfrequency = 0;//总执行次数
+    @Test
+    @Description("命中率95")
+    public void calculatePayout() throws IOException {
+        double sumsamount = 0;//总中奖金额
+        double sumfrequency = 0;//总执行次数
+        double sumwinning =0;//累计中奖次数
         long statimestamp  = System.currentTimeMillis();//开始计时
         for (int i = 0; i < NUM_RUNS; i++) {
             JSONObject jsonObject = JSONObject.parseObject(reslut());
             sumfrequency++;
             Integer k = (Integer) jsonObject.getJSONObject("data").get("payout");
-            System.out.println("中奖金额"+k+"元");
+            if (k >0){
+                sumwinning++;
+            }
+            System.out.println("中奖金额："+k+"元");
             sumsamount +=k.doubleValue();//循环递增金额
         }
         long endtimestamp = System.currentTimeMillis();//结束计时
-    System.out.println("开始时间"+time(statimestamp));
-        System.out.println("累计执行"+sumfrequency+"次");
-        System.out.println("累计中奖"+sumsamount+"元");
-        //      根据接口请求次数 * 投注金额 = 总共有多少钱
         double totalamount = BET  * NUM_RUNS;//总投注金额
-        System.out.println("总投注金额："+totalamount);
-        double probability = sumsamount / totalamount;//总中奖金额/总投注金额
-        System.out.println("总中奖金额/总投注金额=中奖率: " + probability+"%");
-    System.out.println("结束时间"+time(statimestamp));
+        double zhongjiang = sumwinning/sumfrequency;//中奖次数 / 投注次数
+        double probability = sumsamount / totalamount;//总中奖金额 / 总投注金额
+
+        System.out.println("**********开始时间："+time(statimestamp)+
+                "\n"+ "执行次数："+sumfrequency+"次"+
+                "\n"+"累计中奖："+sumsamount+"元" +
+                "\n" +"总投注金额："+totalamount+"元"+
+                "\n"+"累计中奖率为："+zhongjiang+"%" +
+                "\n" + "总中奖金额/总投注金额=中奖率: " + probability+"%" +
+                "\n" + "结束时间："+time(statimestamp)+"***********");
     }
 //    记录时间方法
 private static String time(long times){
