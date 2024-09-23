@@ -35,13 +35,17 @@ public class Case implements CaseApi {
         double sumwinning = 0;//累计中奖次数
         long statimestamp = System.currentTimeMillis();//开始计时
         for (int i = 0; i < runs; i++) {
-            JSONObject jsonObject = JSONObject.parseObject(result(bet, rtp));
-            sumfrequency++;
-            Integer k = (Integer) jsonObject.getJSONObject("data").get("payout");
-            if (k > 0) {
-                sumwinning++;
+            try {
+                JSONObject jsonObject = JSONObject.parseObject(result(bet, rtp));
+                sumfrequency++;
+                Integer k = (Integer) jsonObject.getJSONObject("data").get("payout");
+                if (k > 0) {
+                    sumwinning++;
+                }
+                sumsamount += k.doubleValue();//循环递增金额
+            }catch (Exception e){
+                System.out.println("报错信息："+e.getMessage());
             }
-            sumsamount += k.doubleValue();//循环递增金额
         }
         long endtimestamp = System.currentTimeMillis();//结束计时
         double totalamount = bet * runs;//总投注金额

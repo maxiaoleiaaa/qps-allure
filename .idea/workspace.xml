@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8dfc1a91-58cc-4f82-9838-0e72254f65fd" name="Changes" comment="&quot;case接口上传&quot;">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/behaviors.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/behaviors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/categories.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/packages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/suites.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/suites.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/timeline.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/export/influxDbData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/export/mail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/export/prometheusData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/history/categories-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/history/duration-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/history/history-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/history/history.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/history/retry-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/plugin/behaviors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/plugin/packages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/plugin/screen-diff/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/plugin/screen-diff/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/behaviors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/categories-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/duration-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/duration.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/environment.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/executors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/history-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/retry-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/severity.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/status-chart.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/suites.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/summary.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/0810ea06-3aee-456f-bcab-b5f90bf97bcd-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/12072d27-1f7b-4b89-8a00-ab2760df141a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/247ebc07-7518-4640-9690-ab9f7114a7ec-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4074d449-42f7-4552-9f4e-78f6026d5929-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4291d95e-3440-4c1c-9a00-01b4690d1bf8-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/450e5e08-7f81-4f38-a4e3-6fc5bdfa676d-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/472a185a-ba2f-49db-9bf9-9fb46963ffae-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4e0c0951-c7bf-4043-966b-b0be3479d4ac-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5ef1d1d4-f585-493e-8ecc-9c03b11e2987-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7e1d0a99-a85c-4598-828a-8c23cc8ffce4-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/85ac75cd-4fb6-4807-9963-bafc5f1ed8b4-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8b3780e9-2f4d-49f1-96e4-4796b4997dc1-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8dd00c93-41c8-4063-8c47-9ba4fdf54875-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/90befc9f-e470-4d6e-bc84-965ac5b31fa6-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ae56f779-ee9b-4c73-84a9-e7711bda101d-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b758e6e8-62ae-4272-893f-97b45694537f-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b8106ce6-3564-4d7e-b821-1ef089f1a081-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/db69defe-67a9-42c1-b0c3-09d411447525-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e1790d90-8bac-4e9a-8db1-902c3c80e89d-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e2d1a82b-6b00-4038-b10d-dd00f7aabb28-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e4cd4f79-b8b6-4e59-8f7a-db74ecfa0b0b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e67c2ae4-0a73-4fb7-a8cf-ae8faa6c367a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ef5f0ac0-7156-4c12-99c1-e58b1c385b68-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/websocket/MyWebSocketClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/SmtpTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/WuKongFiveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/WuKongFourTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Case.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Case.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DiaoYong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DiaoYong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/WuKongTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/WuKongTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/WuKongThreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/WuKongThreTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/WuKongTwoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/WuKongTwoTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="AnnotationType" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;maxiaoleiaaa&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/maxiaoleiaaa/qps-allure.git&quot;,
+    &quot;accountId&quot;: &quot;95f7d612-4fd6-47fc-b7be-5deb77325af2&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;maxiaoleiaaa&quot;,
+    &quot;repository&quot;: &quot;qps-allure&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/java/org/example/WuKongTwoTest.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2lzuuNvKEuOoAE5rnFc9G17Y3Xt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Case.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DiaoYong.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyWebSocketClient.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WuKongFiveTest.calculatePayout.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WuKongFiveTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WuKongTest.calculatePayout.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WuKongTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WuKongTwoTest.calculatePayout.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;#1 on branch1&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/yy_maxl/javafile/allure&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="websocket" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yy_maxl\javafile\allure\src\main\java" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MyWebSocketClient">
+    <configuration name="DiaoYong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DiaoYong" />
+      <module name="allure" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyWebSocketClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="websocket.MyWebSocketClient" />
+      <module name="allure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="websocket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WuKongFiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="allure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.WuKongFiveTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WuKongTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="allure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.WuKongTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WuKongTest.calculatePayout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="allure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.WuKongTest" />
+      <option name="METHOD_NAME" value="calculatePayout" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyWebSocketClient" />
+        <item itemvalue="JUnit.WuKongTest.calculatePayout" />
+        <item itemvalue="JUnit.WuKongTest" />
+        <item itemvalue="Application.DiaoYong" />
+        <item itemvalue="JUnit.WuKongFiveTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8dfc1a91-58cc-4f82-9838-0e72254f65fd" name="Changes" comment="" />
+      <created>1726195448981</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726195448981</updated>
+    </task>
+    <task id="LOCAL-00001" summary="&quot;文件上传&quot;">
+      <option name="closed" value="true" />
+      <created>1726199978542</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726199978542</updated>
+    </task>
+    <task id="LOCAL-00002" summary="&quot;修改代码&quot;">
+      <option name="closed" value="true" />
+      <created>1726210312532</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726210312532</updated>
+    </task>
+    <task id="LOCAL-00003" summary="&quot;case接口上传&quot;">
+      <option name="closed" value="true" />
+      <created>1726626527096</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726626527096</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/branch1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;文件上传&quot;" />
+    <MESSAGE value="&quot;修改代码&quot;" />
+    <MESSAGE value="&quot;case接口上传&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;case接口上传&quot;" />
+  </component>
+</project>
