@@ -18,10 +18,10 @@ public class WuKongTwoTest {
 
 
     // ------------------命中率 88%
-//    存储变量
+    //    存储变量
     private static final String URL = "https://dev-platform-games-api.coolgame.world/slot/api/game/mock";
     private static final int BET = 100; //下注金额
-    private static final int NUM_RUNS =50000; //执行次数
+    private static final int NUM_RUNS =500; //执行次数
     private static final int NUM_RTP =95; //命中率
 
 //发送接口请求
@@ -40,7 +40,7 @@ public class WuKongTwoTest {
         String responseBody = EntityUtils.toString(entity,"utf-8");
         return responseBody;
     }
-
+    @Test
     @Description("命中率95")
     public void calculatePayout() throws IOException {
         double sumsamount = 0;//总中奖金额

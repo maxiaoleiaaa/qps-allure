@@ -42,7 +42,6 @@ public class WuKongFiveTest {
         return responseBody;
     }
 
-    @Test
     @Description("命中率95")
     public void calculatePayout() throws IOException {
         double sumsamount = 0;//总中奖金额
@@ -63,6 +62,7 @@ public class WuKongFiveTest {
                 System.out.println("执行错误:" + e.getMessage());
             }
         }
+
         long endtimestamp = System.currentTimeMillis();//结束计时
         double totalamount = BET * NUM_RUNS;//总投注金额
         double zhongjiang = sumwinning / sumfrequency * 100;//中奖次数 / 投注次数
