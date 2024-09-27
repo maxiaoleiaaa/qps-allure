@@ -43,7 +43,6 @@ public class WuKongTest {
         return responseBody;
     }
 
-
     @Description("命中率95")
     public void calculatePayout() throws IOException {
         double sumsamount = 0;//总中奖金额

@@ -6,7 +6,10 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
 
+import javax.xml.crypto.Data;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 //继承 CaseApi接口
 //此类用于接口入参
@@ -17,7 +20,7 @@ public class Case implements CaseApi {
         CloseableHttpClient httpClient = HttpClients.createDefault();
         HttpPost post = new HttpPost("https://dev-platform-games-api.coolgame.world/slot/api/game/mock");
         String json = "{\"bet\": " + bet + ", \"rtp\": " + rtp + "}";
-        post.setEntity(new org.apache.http.entity.StringEntity(json));
+        post.setEntity(new org.apache.http.entity.StringEntity(json,"utf-8"));
         post.setHeader("Content-Type", "application/json");
         CloseableHttpResponse execute = httpClient.execute(post);
         return execute;
@@ -59,6 +62,12 @@ public class Case implements CaseApi {
                 probability,
                 endtimestamp);
     }
+    private static String time(long data){
+        Date date = new Date(data);
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-mm-dd HH:mm:ss");
+        String setdata = simpleDateFormat.format(date);
+        return setdata;
+    }
 
     //反参
     class Result {
@@ -83,12 +92,12 @@ public class Case implements CaseApi {
         // 实例化反参
         @Override
         public String toString() {
-            return "**********开始时间：" + statimestamp +
+            return "**********开始时间：" + time(statimestamp) +
                     "\n" + "累计中奖：" + sumsamount + "元" +
                     "\n" + "总投注金额：" + totalamount + "元" +
                     "\n" + "累计中奖率为：" + zhongjiang + "%" +
                     "\n" + "总中奖金额/总投注金额=中奖率: " + probability + "%" +
-                    "\n" + "结束时间：" + endtimestamp + "***********";
+                    "\n" + "结束时间：" + time(endtimestamp) + "***********";
         }
     }
 }

@@ -5,11 +5,10 @@ import org.java_websocket.handshake.ServerHandshake;
 
 import java.net.URI;
 import java.nio.ByteBuffer;
-import java.util.ArrayList;
 
 public class MyWebSocketClient extends WebSocketClient {
     private  final  static int RUN_NUM = 10;
-    private final static int[] BYTE_NUM = {0,0};
+    private final static int[] BYTE_NUM = {1,1};
 //构造器 只有构造器与类名同名
     public MyWebSocketClient(URI serverUri) {
         super(serverUri);
