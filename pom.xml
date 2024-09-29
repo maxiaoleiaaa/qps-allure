@@ -58,6 +58,14 @@
       <version>2.10.0</version> <!-- 使用最新稳定版本 -->
     </dependency>
 
+
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <version>5.8.2</version>
+      <scope>test</scope>
+    </dependency>
+
     <dependency>
       <groupId>org.json</groupId>
       <artifactId>json</artifactId>
@@ -117,6 +125,12 @@
       <groupId>org.example</groupId>
       <artifactId>allure</artifactId>
       <version>1.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>6.14.2</version>
+      <scope>compile</scope>
     </dependency>
 
   </dependencies>

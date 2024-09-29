@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8dfc1a91-58cc-4f82-9838-0e72254f65fd" name="Changes" comment="&quot;时间计时代码优化，二进制入参代码优化&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/artob/Blogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/artob/HttpConfigure.java" afterDir="false" />
+    <list default="true" id="8dfc1a91-58cc-4f82-9838-0e72254f65fd" name="Changes" comment="&quot;修改httpclent方法&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Case.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Case.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DiaoYong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DiaoYong.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/websocket/MyWebSocketClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/websocket/MyWebSocketClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SmtpTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/WuKongFiveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/WuKongFiveTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/WuKongTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/WuKongTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/WuKongTwoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/WuKongTwoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Case.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/Case.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CaseApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/CaseApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DiaoYong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/DiaoYong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/artob/BloginTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +21,7 @@
       <list>
         <option value="Interface" />
         <option value="AnnotationType" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -78,9 +73,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Blogin.executor": "Debug",
     "Application.Case.executor": "Run",
     "Application.DiaoYong.executor": "Run",
+    "Application.HttpConfigure.executor": "Run",
     "Application.MyWebSocketClient.executor": "Run",
+    "JUnit.BloginTest.executor": "Run",
+    "JUnit.BloginTest.login.executor": "Run",
+    "JUnit.BloginTest.test1.executor": "Run",
     "JUnit.WuKongFiveTest.calculatePayout.executor": "Run",
     "JUnit.WuKongFiveTest.executor": "Run",
     "JUnit.WuKongTest.calculatePayout.executor": "Run",
@@ -88,6 +88,13 @@
     "JUnit.WuKongTwoTest.calculatePayout.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.Blogin.executor": "Run",
+    "TestNG.Blogin.test.executor": "Run",
+    "TestNG.Blogin.test1.executor": "Run",
+    "TestNG.Vip.executor": "Run",
+    "TestNG.Vip.test.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "#1 on branch1",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/yy_maxl/javafile/allure",
@@ -101,87 +108,112 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\yy_maxl\javafile\allure\src\main\java" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="artob" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DiaoYong">
-    <configuration name="DiaoYong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DiaoYong" />
-      <module name="allure" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyWebSocketClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="websocket.MyWebSocketClient" />
+  <component name="RunManager" selected="JUnit.BloginTest">
+    <configuration name="BloginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="allure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="websocket.*" />
+          <option name="PATTERN" value="artob.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WuKongFiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="allure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.WuKongFiveTest" />
+      <option name="PACKAGE_NAME" value="artob" />
+      <option name="MAIN_CLASS_NAME" value="artob.BloginTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WuKongTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Blogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="allure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="artob.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.WuKongTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="artob" />
+      <option name="MAIN_CLASS_NAME" value="artob.Blogin" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WuKongTest.calculatePayout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Blogin.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="allure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="artob.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.WuKongTest" />
-      <option name="METHOD_NAME" value="calculatePayout" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="artob" />
+      <option name="MAIN_CLASS_NAME" value="artob.Blogin" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Vip" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="allure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="artob.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="artob" />
+      <option name="MAIN_CLASS_NAME" value="artob.Vip" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Vip.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="allure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="artob.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="artob" />
+      <option name="MAIN_CLASS_NAME" value="artob.Vip" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DiaoYong" />
-        <item itemvalue="Application.MyWebSocketClient" />
-        <item itemvalue="JUnit.WuKongTest.calculatePayout" />
-        <item itemvalue="JUnit.WuKongTest" />
-        <item itemvalue="JUnit.WuKongFiveTest" />
+        <item itemvalue="JUnit.BloginTest" />
+        <item itemvalue="TestNG.Vip.test" />
+        <item itemvalue="TestNG.Vip" />
+        <item itemvalue="TestNG.Blogin.test" />
+        <item itemvalue="TestNG.Blogin" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +266,31 @@
       <option name="project" value="LOCAL" />
       <updated>1727081686130</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="&quot;封装httpclent方法&quot;">
+      <option name="closed" value="true" />
+      <created>1727435685270</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727435685270</updated>
+    </task>
+    <task id="LOCAL-00007" summary="&quot;封装httpclent方法&quot;">
+      <option name="closed" value="true" />
+      <created>1727435777770</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727435777770</updated>
+    </task>
+    <task id="LOCAL-00008" summary="&quot;修改httpclent方法&quot;">
+      <option name="closed" value="true" />
+      <created>1727606998601</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1727606998601</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -265,6 +321,8 @@
     <MESSAGE value="&quot;修改代码&quot;" />
     <MESSAGE value="&quot;case接口上传&quot;" />
     <MESSAGE value="&quot;时间计时代码优化，二进制入参代码优化&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;时间计时代码优化，二进制入参代码优化&quot;" />
+    <MESSAGE value="&quot;封装httpclent方法&quot;" />
+    <MESSAGE value="&quot;修改httpclent方法&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;修改httpclent方法&quot;" />
   </component>
 </project>

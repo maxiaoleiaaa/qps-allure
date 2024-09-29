@@ -41,7 +41,6 @@ public class WuKongFiveTest {
         String responseBody = EntityUtils.toString(entity, "utf-8");
         return responseBody;
     }
-
     @Description("命中率95")
     public void calculatePayout() throws IOException {
         double sumsamount = 0;//总中奖金额
