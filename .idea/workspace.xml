@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8dfc1a91-58cc-4f82-9838-0e72254f65fd" name="Changes" comment="&quot;修改httpclent方法&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/artob/Register.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/artob/Try.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/artob/ConfigHttp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/artob/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/artob/vip/VipName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/artob/vip/VipTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Case.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/Case.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CaseApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/CaseApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DiaoYong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/DiaoYong.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/artob/BloginTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/artob/Blogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/artob/Blogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/artob/HttpConfigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/artob/HttpConfigure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/artob/Vip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/WuKongTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/WuKongTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,24 +81,34 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.Blogin.executor": "Debug",
+    "Application.Blogin.executor": "Run",
     "Application.Case.executor": "Run",
     "Application.DiaoYong.executor": "Run",
     "Application.HttpConfigure.executor": "Run",
     "Application.MyWebSocketClient.executor": "Run",
+    "Application.Register.executor": "Run",
+    "Application.Try.executor": "Run",
+    "Application.Vip.executor": "Run",
     "JUnit.BloginTest.executor": "Run",
     "JUnit.BloginTest.login.executor": "Run",
     "JUnit.BloginTest.test1.executor": "Run",
+    "JUnit.LoginTest.test.executor": "Run",
+    "JUnit.LoginTest.vip.executor": "Run",
+    "JUnit.VipName.upDate.executor": "Run",
+    "JUnit.VipTest.lockIp.executor": "Run",
+    "JUnit.VipTest.vipList.executor": "Run",
     "JUnit.WuKongFiveTest.calculatePayout.executor": "Run",
     "JUnit.WuKongFiveTest.executor": "Run",
     "JUnit.WuKongTest.calculatePayout.executor": "Run",
     "JUnit.WuKongTest.executor": "Run",
     "JUnit.WuKongTwoTest.calculatePayout.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.allure [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TestNG.Blogin.executor": "Run",
     "TestNG.Blogin.test.executor": "Run",
     "TestNG.Blogin.test1.executor": "Run",
+    "TestNG.C:/Users/yy_maxl/javafile/allure/testng.xml.executor": "Run",
     "TestNG.Vip.executor": "Run",
     "TestNG.Vip.test.executor": "Run",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
@@ -98,7 +116,7 @@
     "git-widget-placeholder": "#1 on branch1",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/yy_maxl/javafile/allure",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+    "settings.editor.selected.configurable": "reference.settings.project.maven.ignored.files"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -121,23 +139,22 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BloginTest">
-    <configuration name="BloginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.MyWebSocketClient">
+    <configuration name="MyWebSocketClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="websocket.MyWebSocketClient" />
       <module name="allure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="artob.*" />
+          <option name="PATTERN" value="websocket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="artob" />
-      <option name="MAIN_CLASS_NAME" value="artob.BloginTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Blogin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Register" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="artob.Register" />
       <module name="allure" />
       <extension name="coverage">
         <pattern>
@@ -145,16 +162,12 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="artob" />
-      <option name="MAIN_CLASS_NAME" value="artob.Blogin" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Blogin.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Try" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="artob.Try" />
       <module name="allure" />
       <extension name="coverage">
         <pattern>
@@ -162,58 +175,49 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="artob" />
-      <option name="MAIN_CLASS_NAME" value="artob.Blogin" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Vip" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="VipName.upDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="allure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="artob.*" />
+          <option name="PATTERN" value="artob.vip.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="artob" />
-      <option name="MAIN_CLASS_NAME" value="artob.Vip" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="artob.vip" />
+      <option name="MAIN_CLASS_NAME" value="artob.vip.VipName" />
+      <option name="METHOD_NAME" value="upDate" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Vip.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="VipTest.vipList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="allure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="artob.*" />
+          <option name="PATTERN" value="artob.vip.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="artob" />
-      <option name="MAIN_CLASS_NAME" value="artob.Vip" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="artob.vip" />
+      <option name="MAIN_CLASS_NAME" value="artob.vip.VipTest" />
+      <option name="METHOD_NAME" value="vipList" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BloginTest" />
-        <item itemvalue="TestNG.Vip.test" />
-        <item itemvalue="TestNG.Vip" />
-        <item itemvalue="TestNG.Blogin.test" />
-        <item itemvalue="TestNG.Blogin" />
+        <item itemvalue="Application.MyWebSocketClient" />
+        <item itemvalue="Application.Try" />
+        <item itemvalue="Application.Register" />
+        <item itemvalue="JUnit.VipName.upDate" />
+        <item itemvalue="JUnit.VipTest.vipList" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +294,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727606998601</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="&quot;修改httpclent方法&quot;">
+      <option name="closed" value="true" />
+      <created>1727607168972</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1727607168972</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
