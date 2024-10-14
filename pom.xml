@@ -15,6 +15,7 @@
   </properties>
 
 
+
   <build>
     <plugins>
       <!-- Surefire Plugin for running tests -->
@@ -39,6 +40,12 @@
         <artifactId>allure-maven</artifactId>
         <version>2.10.0</version> <!-- 使用最新稳定版本 -->
       </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.19.1</version>
+      </plugin>
+
     </plugins>
   </build>
   <dependencies>
@@ -54,11 +61,27 @@
       <version>2.10.0</version> <!-- 使用最新稳定版本 -->
     </dependency>
 
+
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <version>5.8.2</version>
+      <scope>test</scope>
+    </dependency>
+
     <dependency>
       <groupId>org.json</groupId>
       <artifactId>json</artifactId>
       <version>20210307</version>
     </dependency>
+
+<!--gson-->
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.8</version>
+    </dependency>
+
     <dependency>
       <groupId>com.alibaba</groupId>
       <artifactId>fastjson</artifactId>
@@ -77,11 +100,41 @@
       <artifactId>httpclient</artifactId>
       <version>4.5.13</version>
     </dependency>
+<!--    发送邮件-->
+    <dependency>
+      <groupId>javax.mail</groupId>
+      <artifactId>javax.mail-api</artifactId>
+      <version>1.6.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.sun.mail</groupId>
+      <artifactId>javax.mail</artifactId>
+      <version>1.6.2</version>
+    </dependency>
 
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-databind</artifactId>
       <version>2.12.3</version>
     </dependency>
+
+<!--websocket-->
+    <dependency>
+      <groupId>org.java-websocket</groupId>
+      <artifactId>Java-WebSocket</artifactId>
+      <version>1.5.2</version> <!-- 使用适合的版本 -->
+    </dependency>
+    <dependency>
+      <groupId>org.example</groupId>
+      <artifactId>allure</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>6.14.2</version>
+      <scope>compile</scope>
+    </dependency>
+
   </dependencies>
 </project>

@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8dfc1a91-58cc-4f82-9838-0e72254f65fd" name="Changes" comment="&quot;修改httpclent方法&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/artob/Register.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/artob/Try.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/artob/ConfigHttp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/artob/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/artob/vip/VipName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/artob/vip/VipTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/artob/Blogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/artob/Blogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/artob/HttpConfigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/artob/HttpConfigure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/artob/Vip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/WuKongTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/WuKongTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;maxiaoleiaaa&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/maxiaoleiaaa/qps-allure.git&quot;,
+    &quot;accountId&quot;: &quot;95f7d612-4fd6-47fc-b7be-5deb77325af2&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;maxiaoleiaaa&quot;,
+    &quot;repository&quot;: &quot;qps-allure&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/java/org/example/WuKongTwoTest.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2lzuuNvKEuOoAE5rnFc9G17Y3Xt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Blogin.executor": "Run",
+    "Application.Case.executor": "Run",
+    "Application.DiaoYong.executor": "Run",
+    "Application.HttpConfigure.executor": "Run",
+    "Application.MyWebSocketClient.executor": "Run",
+    "Application.Register.executor": "Run",
+    "Application.Try.executor": "Run",
+    "Application.Vip.executor": "Run",
+    "JUnit.BloginTest.executor": "Run",
+    "JUnit.BloginTest.login.executor": "Run",
+    "JUnit.BloginTest.test1.executor": "Run",
+    "JUnit.LoginTest.test.executor": "Run",
+    "JUnit.LoginTest.vip.executor": "Run",
+    "JUnit.VipName.upDate.executor": "Run",
+    "JUnit.VipTest.lockIp.executor": "Run",
+    "JUnit.VipTest.vipList.executor": "Run",
+    "JUnit.WuKongFiveTest.calculatePayout.executor": "Run",
+    "JUnit.WuKongFiveTest.executor": "Run",
+    "JUnit.WuKongTest.calculatePayout.executor": "Run",
+    "JUnit.WuKongTest.executor": "Run",
+    "JUnit.WuKongTwoTest.calculatePayout.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.allure [clean].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.Blogin.executor": "Run",
+    "TestNG.Blogin.test.executor": "Run",
+    "TestNG.Blogin.test1.executor": "Run",
+    "TestNG.C:/Users/yy_maxl/javafile/allure/testng.xml.executor": "Run",
+    "TestNG.Vip.executor": "Run",
+    "TestNG.Vip.test.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "#1 on branch1",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/yy_maxl/javafile/allure",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.ignored.files"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="websocket" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yy_maxl\javafile\allure\src\main\java" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="artob" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MyWebSocketClient">
+    <configuration name="MyWebSocketClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="websocket.MyWebSocketClient" />
+      <module name="allure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="websocket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Register" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="artob.Register" />
+      <module name="allure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="artob.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Try" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="artob.Try" />
+      <module name="allure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="artob.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VipName.upDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="allure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="artob.vip.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="artob.vip" />
+      <option name="MAIN_CLASS_NAME" value="artob.vip.VipName" />
+      <option name="METHOD_NAME" value="upDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VipTest.vipList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="allure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="artob.vip.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="artob.vip" />
+      <option name="MAIN_CLASS_NAME" value="artob.vip.VipTest" />
+      <option name="METHOD_NAME" value="vipList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyWebSocketClient" />
+        <item itemvalue="Application.Try" />
+        <item itemvalue="Application.Register" />
+        <item itemvalue="JUnit.VipName.upDate" />
+        <item itemvalue="JUnit.VipTest.vipList" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8dfc1a91-58cc-4f82-9838-0e72254f65fd" name="Changes" comment="" />
+      <created>1726195448981</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726195448981</updated>
+    </task>
+    <task id="LOCAL-00001" summary="&quot;文件上传&quot;">
+      <option name="closed" value="true" />
+      <created>1726199978542</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726199978542</updated>
+    </task>
+    <task id="LOCAL-00002" summary="&quot;修改代码&quot;">
+      <option name="closed" value="true" />
+      <created>1726210312532</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726210312532</updated>
+    </task>
+    <task id="LOCAL-00003" summary="&quot;case接口上传&quot;">
+      <option name="closed" value="true" />
+      <created>1726626527096</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726626527096</updated>
+    </task>
+    <task id="LOCAL-00004" summary="&quot;时间计时代码优化，二进制入参代码优化&quot;">
+      <option name="closed" value="true" />
+      <created>1727081651206</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727081651206</updated>
+    </task>
+    <task id="LOCAL-00005" summary="&quot;时间计时代码优化，二进制入参代码优化&quot;">
+      <option name="closed" value="true" />
+      <created>1727081686130</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727081686130</updated>
+    </task>
+    <task id="LOCAL-00006" summary="&quot;封装httpclent方法&quot;">
+      <option name="closed" value="true" />
+      <created>1727435685270</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727435685270</updated>
+    </task>
+    <task id="LOCAL-00007" summary="&quot;封装httpclent方法&quot;">
+      <option name="closed" value="true" />
+      <created>1727435777770</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727435777770</updated>
+    </task>
+    <task id="LOCAL-00008" summary="&quot;修改httpclent方法&quot;">
+      <option name="closed" value="true" />
+      <created>1727606998601</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1727606998601</updated>
+    </task>
+    <task id="LOCAL-00009" summary="&quot;修改httpclent方法&quot;">
+      <option name="closed" value="true" />
+      <created>1727607168972</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1727607168972</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/branch1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;文件上传&quot;" />
+    <MESSAGE value="&quot;修改代码&quot;" />
+    <MESSAGE value="&quot;case接口上传&quot;" />
+    <MESSAGE value="&quot;时间计时代码优化，二进制入参代码优化&quot;" />
+    <MESSAGE value="&quot;封装httpclent方法&quot;" />
+    <MESSAGE value="&quot;修改httpclent方法&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;修改httpclent方法&quot;" />
+  </component>
+</project>

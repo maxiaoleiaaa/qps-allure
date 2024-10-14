@@ -9,13 +9,15 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
+import org.junit.jupiter.api.Test;
+
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
 
 // ------------------命中率 95%
-public class WuKongTest {
+public class WuKongFiveTest {
     //    存储变量
     private static final String URL = "https://dev-platform-games-api.coolgame.world/slot/api/game/mock";
     private static final int BET = 100; //下注金额
@@ -39,7 +41,6 @@ public class WuKongTest {
         String responseBody = EntityUtils.toString(entity, "utf-8");
         return responseBody;
     }
-
     @Description("命中率95")
     public void calculatePayout() throws IOException {
         double sumsamount = 0;//总中奖金额
@@ -56,12 +57,12 @@ public class WuKongTest {
                 }
                 System.out.println("中奖金额：" + k + "元");
                 sumsamount += k.doubleValue();//循环递增金额
-            }catch (Exception e) {
+            } catch (Exception e) {
                 System.out.println("执行错误:" + e.getMessage());
             }
         }
-        long endtimestamp = System.currentTimeMillis();//结束计时
 
+        long endtimestamp = System.currentTimeMillis();//结束计时
         double totalamount = BET * NUM_RUNS;//总投注金额
         double zhongjiang = sumwinning / sumfrequency * 100;//中奖次数 / 投注次数
         double probability = sumsamount / totalamount;//总中奖金额 / 总投注金额
@@ -76,8 +77,8 @@ public class WuKongTest {
     }
 
     //    记录时间方法
-    private static String time(long data) {
-        Date date = new Date(data);
+    private static String time(long times) {
+        Date date = new Date(times);
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         String formattedDate = sdf.format(date);
         return formattedDate;

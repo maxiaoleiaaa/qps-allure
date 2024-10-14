@@ -18,10 +18,10 @@ public class WuKongTwoTest {
 
 
     // ------------------命中率 88%
-//    存储变量
+    //    存储变量
     private static final String URL = "https://dev-platform-games-api.coolgame.world/slot/api/game/mock";
     private static final int BET = 100; //下注金额
-    private static final int NUM_RUNS =100; //执行次数
+    private static final int NUM_RUNS =500; //执行次数
     private static final int NUM_RTP =95; //命中率
 
 //发送接口请求
@@ -47,19 +47,23 @@ public class WuKongTwoTest {
         double sumfrequency = 0;//总执行次数
         double sumwinning =0;//累计中奖次数
         long statimestamp  = System.currentTimeMillis();//开始计时
-        for (int i = 0; i < NUM_RUNS; i++) {
+    for (int i = 0; i < NUM_RUNS; i++) {
+        try {
             JSONObject jsonObject = JSONObject.parseObject(reslut());
             sumfrequency++;
             Integer k = (Integer) jsonObject.getJSONObject("data").get("payout");
-            if (k >0){
+            if (k > 0) {
                 sumwinning++;
             }
-            System.out.println("中奖金额"+k+"元");
-            sumsamount +=k.doubleValue();//循环递增金额
+            System.out.println("中奖金额：" + k + "元");
+            sumsamount += k.doubleValue();//循环递增金额
+        }catch (Exception e) {
+            System.out.println("执行错误:" + e.getMessage());
         }
+    }
         long endtimestamp = System.currentTimeMillis();//结束计时
         double totalamount = BET  * NUM_RUNS;//总投注金额
-        double zhongjiang = sumwinning/sumfrequency;//中奖次数 / 投注次数
+        double zhongjiang = sumwinning/sumfrequency * 100;//中奖次数 / 投注次数
         double probability = sumsamount / totalamount;//总中奖金额 / 总投注金额
 
         System.out.println("**********开始时间："+time(statimestamp)+
@@ -68,11 +72,11 @@ public class WuKongTwoTest {
                 "\n" +"总投注金额："+totalamount+"元"+
                 "\n"+"累计中奖率为："+zhongjiang+"%" +
                 "\n" + "总中奖金额/总投注金额=中奖率: " + probability+"%" +
-                "\n" + "结束时间："+time(statimestamp)+"***********");
+                "\n" + "结束时间："+time(endtimestamp)+"***********");
     }
 //    记录时间方法
 private static String time(long times){
-    Date date = new Date();
+    Date date = new Date(times);
     SimpleDateFormat sdf  = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
     String formattedDate = sdf.format(date);
     return formattedDate;
